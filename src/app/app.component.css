@@ -1,0 +1,114 @@
+.main-container {
+  background-image: url("../assets/images/cubes-1920x1080.png");
+  padding-bottom: 49px;
+ 
+}
+
+.main-container header {
+  color: #fff;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+  background-color: #f5ba13;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  font-size: 33px;
+  font-weight: 200;
+}
+
+.main-container .input-section {
+  padding: 30px;
+  width: auto;
+  display: grid;
+}
+
+.main-container .input-section .container {
+  width: 480px;
+  place-self: center;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 0 1rem rgba(120, 118, 118, 0.555);
+  position: relative;
+}
+
+.main-container .input-section .container input[type="text"],
+textarea {
+  width: 100%;
+  font-size: 1.2em;
+  border: none;
+  outline: none;
+  padding: 4px;
+}
+
+.main-container .input-section .container textarea {
+  resize: none;
+  height: 25px;
+  overflow: hidden;
+
+}
+
+.main-container .input-section .container .addBtn {
+  padding: 5px 12px;
+  background-color: #f5ba13;
+  color: #fff;
+  position: absolute;
+  right: 15px;
+  bottom: -22px;
+  border-radius: 50%;
+  font-size: 25px;
+  cursor: pointer;
+  border: 0px;
+}
+
+.main-container .input-section .container .addBtn:hover {
+  background-color: #cccccc;
+}
+
+.main-container .display-section {
+  width: auto;
+  margin: 0px 16px 0px 16px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 80px;
+}
+
+.main-container .display-section .display-content {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  display: inline-block;
+  width: 240px;
+  margin: 12px 20px;
+  padding: 10px;
+}
+
+.main-container .display-section .display-content .btns {
+  text-align: end;
+  margin-top: 5px;
+}
+
+.main-container .display-section .display-content .btns button {
+  color: #f5ba13;
+  border: none;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  outline: none;
+}
+
+.main-container .display-section .display-content .btns button:hover,
+i:hover {
+  background-color: #cccccc;
+  color: #fff;
+}
+
+.main-container footer {
+  color: #ccc;
+  position: relative;
+  bottom: -10px;
+  display: grid;
+  place-items: center;
+  font-size: 18px;
+
+}
